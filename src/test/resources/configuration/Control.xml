@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+<applicationurl>https://localhost:8443</applicationurl> 
+<Explicittimeout>60</Explicittimeout>
+<Company>Hub Company</Company>
+<Username>admin</Username>
+<Password>admin</Password>
+<ChromeDriver>src\\test\\resources\\drivers\\chromedriver.exe</ChromeDriver>
+<GeckoDriver>src\\test\\resources\\drivers\\geckodriver.exe</GeckoDriver>
+<IEDriver>src\\test\\resources\\drivers\\IEDriverServer.exe</IEDriver>
+</data>

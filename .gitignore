@@ -1,0 +1,87 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.tgz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.ser
+
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Editor Files #
+################
+*~
+*.swp
+*/~provisionDB.sql
+
+# Gradle Files #
+################
+.gradle/
+gradle-app.setting
+.m2
+init.gradle
+gdl*
+
+# Build output directies
+/target
+*/target
+/build
+*/build
+install/
+karyon-admin/bin/
+karyon-admin-web/bin/
+service-framework/bin/
+service-implementation/bin/
+
+# IntelliJ specific files/directories
+out
+.idea
+*.ipr
+*.iws
+*.iml
+atlassian-ide-plugin.xml
+
+# Eclipse specific files/directories
+.classpath
+.project
+.settings
+.metadata
+/bin
+
+# NetBeans specific files/directories
+.nbattrs
+
+service-implementation/cargoConfig/
+service-framework/test-output
+README
+test-output
+
+#upload the below executable files
+!chromedriver.exe
+!geckodriver.exe
+!IEDriverServer.exe
